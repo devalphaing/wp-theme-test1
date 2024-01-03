@@ -1,0 +1,96 @@
+.nav {
+    display: flex;
+    gap: 1rem;
+    position: relative;
+}
+
+.about-content {}
+
+.img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alignnone {
+    object-fit: contain;
+    width: 50%;
+}
+
+.logo-container {}
+
+.logo-container img {
+    width: 30%;
+}
+
+.current_page_item {
+    border: 1px solid red;
+    padding: 0rem 1rem;
+    background-color: antiquewhite;
+}
+
+.current_page_item a{
+    color: black;
+}
+
+.single-title-container {
+    border: 1px solid red;
+}
+
+.comment-form-comment {}
+
+.comment-form-comment textarea {
+    border: 1px solid red;
+    width: 17rem;
+    height: 3rem;
+}
+
+.form-submit .submit {
+    border-radius: 1rem;
+    padding: 0.2rem 1rem;
+    background: black;
+    color: white;
+}
+
+.comment-respond{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.comment-form{
+    border: 2px dotted black;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border-width: 0.4rem;
+}
+
+.sub-menu{
+    position: absolute;
+    left: 3.5rem;
+    visibility: hidden;
+    background-color: antiquewhite;
+}
+
+.nav:hover .sub-menu{
+    visibility: visible;
+}
+
+.title-news {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: large;
+    margin-bottom: 1rem;
+}
+
+.data-news {
+    padding: 2rem;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    color: cadetblue;
+}
