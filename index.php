@@ -52,7 +52,10 @@ get_sidebar();
     ?>
 
         <div class="title-news"><?php the_title() ?></div>
-        <div class="data-news"><?php the_content() ?></div>
+        <div class="data-news">
+            <?php the_content() ?>
+            <div class="data-news"><?php echo get_the_date() ?></div>
+        </div>
 
 
     <?php } ?>
